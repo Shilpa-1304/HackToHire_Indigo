@@ -9,7 +9,7 @@ Notifications: Kafka**
 
 The project involves a flight status tracking application, featuring both a front-end dashboard and a back-end system for managing and updating flight information.
 
-**Note: Please refer to the Utilities folder Flowchart, Dummy UI and Samaple dataset has been attached there for reference.**
+**Note: Please refer to the flightStatusDashboard/Utilities folder where Flowchart, Dummy UI and Samaple dataset has been attached for reference.**
 
 **Back-End:** FlightStatusApplication Backend
 The back-end is responsible for fetching, storing, and updating flight information. The system architecture includes the following components:

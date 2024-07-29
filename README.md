@@ -1,6 +1,7 @@
 # HackToHire_Indigo
 A system to provide real-time flight status updates and notifications to passengers.
-**TechStack:
+
+**TechStack Used:
 Frontend: HTML, CSS, React.js and bootstarp.
 Backend: Java with Spring boot.
 Database: Mongo DB

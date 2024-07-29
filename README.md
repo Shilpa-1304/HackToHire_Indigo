@@ -24,6 +24,7 @@ Data Flow Process:
 Fetching Data: The system fetches real-time flight data from the Airport DB every 10 minutes.
 Database Update: If the flight is present in the FlightsTracker DB, it updates the latest changes. If not, it saves the new flight information in the repository.
 Change Detection: The application checks for any changes in the flight status, delays, or gate assignments.
+
 **Notifications:** Upon detecting any changes, the system sends notifications via Kafka to inform passengers about the status updates.
 This setup ensures that passengers receive timely and accurate information about their flights, enhancing their travel experience.
 

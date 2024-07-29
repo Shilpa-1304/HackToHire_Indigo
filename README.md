@@ -2,9 +2,9 @@
 A system to provide real-time flight status updates and notifications to passengers.
 
 **TechStack Used:
-Frontend: HTML, CSS, React.js and bootstarp.
-Backend: Java with Spring boot.
-Database: Mongo DB
+Frontend: HTML, CSS,JS, React.js and Bootstarp,
+Backend: Java with Spring boot,
+Database: MongoDB,
 Notifications: Kafka**
 
 The project involves a flight status tracking application, featuring both a front-end dashboard and a back-end system for managing and updating flight information.

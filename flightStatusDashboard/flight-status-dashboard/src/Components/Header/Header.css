@@ -1,0 +1,17 @@
+.logo{
+    text-decoration: dashed;
+    width: 10%;
+    background-image: url("../../Utilities/Images/Airplane.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header{
+    height: 3.6em;
+}
+.heading{
+    width: 90%;
+    text-shadow: 2px 2px 2px rgb(149, 154, 224); 
+    letter-spacing: 0.05em;
+    text-align: center;
+}

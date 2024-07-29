@@ -1,0 +1,70 @@
+.tableContainer {
+    opacity: 80%;
+    overflow-y: scroll;
+  }
+  
+  .table-info {
+    border: 1px solid #dee2e6;
+  }
+  
+  .flightStatusTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 1.1em;
+    border: 1px solid #dee2e6;
+    background-color: rgb(141, 212, 253);/* Ensure the background color is applied */
+    margin: 0!important; /* Reset margin */
+    padding: 0.75rem; /* Ensure padding is consistent */
+  }
+  
+  .table_flight th,
+  .table_flight td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table_flight thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table_flight tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .table_flight-sm th,
+  .table_flight-sm td {
+    padding: 0.3rem;
+  }
+  
+  .table_flight-light {
+    background-color: #f8f9fa;
+  }
+  
+  .table_flight-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .table_flight-hover .table_flight-light tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .cancelledFlight {
+    background-color: rgb(253, 141, 141) !important;
+    /* color: white !important; */
+  }
+  .delayedFlight{
+    background-color: rgb(248, 213, 57) !important;
+    /* color: white !important; */
+  }
+  

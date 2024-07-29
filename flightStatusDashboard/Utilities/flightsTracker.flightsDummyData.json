@@ -1,0 +1,199 @@
+[{
+  "_id": 3,
+  "flightNumber": "UA789",
+  "airline": "United Airlines",
+  "origin": "SFO",
+  "destination": "SEA",
+  "scheduledDeparture": "2024-07-27T10:00:00Z",
+  "actualDeparture": "2024-07-27T10:00:00Z",
+  "scheduledArrival": "2024-07-27T11:30:00Z",
+  "actualArrival": "2024-07-27T11:30:00Z",
+  "status": "Cancelled",
+  "delay": "0 minutes",
+  "gateChange": {
+    "originalGate": "D4",
+    "newGate": "D4"
+  },
+  "isCancelled": true
+},
+{
+  "_id": 4,
+  "flightNumber": "SW101",
+  "airline": "Southwest Airlines",
+  "origin": "LAS",
+  "destination": "DEN",
+  "scheduledDeparture": "2024-07-27T11:00:00Z",
+  "actualDeparture": "2024-07-27T11:15:00Z",
+  "scheduledArrival": "2024-07-27T12:30:00Z",
+  "actualArrival": "2024-07-27T12:45:00Z",
+  "status": "Delayed",
+  "delay": "15 minutes",
+  "gateChange": {
+    "originalGate": "F7",
+    "newGate": "F9"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 2,
+  "flightNumber": "DL456",
+  "airline": "Delta Airlines",
+  "origin": "ATL",
+  "destination": "ORD",
+  "scheduledDeparture": "2024-07-27T09:00:00Z",
+  "actualDeparture": "2024-07-27T09:00:00Z",
+  "scheduledArrival": "2024-07-27T10:30:00Z",
+  "actualArrival": "2024-07-27T10:30:00Z",
+  "status": "On Time",
+  "delay": "0 minutes",
+  "gateChange": {
+    "originalGate": "A5",
+    "newGate": "A5"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 5,
+  "flightNumber": "BA202",
+  "airline": "British Airways",
+  "origin": "LHR",
+  "destination": "JFK",
+  "scheduledDeparture": "2024-07-27T14:00:00Z",
+  "actualDeparture": "2024-07-27T14:00:00Z",
+  "scheduledArrival": "2024-07-27T18:00:00Z",
+  "actualArrival": "2024-07-27T18:00:00Z",
+  "status": "On Time",
+  "delay": "0 minutes",
+  "gateChange": {
+    "originalGate": "G1",
+    "newGate": "G1"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 1,
+  "flightNumber": "AA123",
+  "airline": "American Airlines",
+  "origin": "JFK",
+  "destination": "LAX",
+  "scheduledDeparture": "2024-07-27T08:30:00Z",
+  "actualDeparture": "2024-07-27T08:50:00Z",
+  "scheduledArrival": "2024-07-27T11:30:00Z",
+  "actualArrival": "2024-07-27T11:50:00Z",
+  "status": "Delayed",
+  "delay": "20 minutes",
+  "gateChange": {
+    "originalGate": "B12",
+    "newGate": "C15"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 6,
+  "flightNumber": "AA456",
+  "airline": "American Airlines",
+  "origin": "LAX",
+  "destination": "ORD",
+  "scheduledDeparture": "2024-07-27T12:00:00Z",
+  "actualDeparture": "2024-07-27T12:15:00Z",
+  "scheduledArrival": "2024-07-27T18:00:00Z",
+  "actualArrival": "2024-07-27T18:30:00Z",
+  "status": "Delayed",
+  "delay": "15 minutes",
+  "gateChange": {
+    "originalGate": "C10",
+    "newGate": "C12"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 9,
+  "flightNumber": "SW202",
+  "airline": "Southwest Airlines",
+  "origin": "DEN",
+  "destination": "LAS",
+  "scheduledDeparture": "2024-07-27T16:00:00Z",
+  "actualDeparture": "2024-07-27T16:20:00Z",
+  "scheduledArrival": "2024-07-27T17:30:00Z",
+  "actualArrival": "2024-07-27T17:45:00Z",
+  "status": "Delayed",
+  "delay": "15 minutes",
+  "gateChange": {
+    "originalGate": "F8",
+    "newGate": "F10"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 7,
+  "flightNumber": "DL789",
+  "airline": "Delta Airlines",
+  "origin": "ORD",
+  "destination": "SEA",
+  "scheduledDeparture": "2024-07-27T13:00:00Z",
+  "actualDeparture": "2024-07-27T13:05:00Z",
+  "scheduledArrival": "2024-07-27T16:00:00Z",
+  "actualArrival": "2024-07-27T16:10:00Z",
+  "status": "Delayed",
+  "delay": "10 minutes",
+  "gateChange": {
+    "originalGate": "B2",
+    "newGate": "B4"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 8,
+  "flightNumber": "UA101",
+  "airline": "United Airlines",
+  "origin": "SEA",
+  "destination": "DCA",
+  "scheduledDeparture": "2024-07-27T15:00:00Z",
+  "actualDeparture": "2024-07-27T15:10:00Z",
+  "scheduledArrival": "2024-07-27T23:00:00Z",
+  "actualArrival": "2024-07-27T23:05:00Z",
+  "status": "On Time",
+  "delay": "5 minutes",
+  "gateChange": {
+    "originalGate": "E5",
+    "newGate": "E5"
+  },
+  "isCancelled": false
+},
+{
+  "_id": 10,
+  "flightNumber": "BA303",
+  "airline": "British Airways",
+  "origin": "JFK",
+  "destination": "LHR",
+  "scheduledDeparture": "2024-07-27T20:00:00Z",
+  "actualDeparture": "2024-07-27T20:10:00Z",
+  "scheduledArrival": "2024-07-28T08:00:00Z",
+  "actualArrival": "2024-07-28T08:05:00Z",
+  "status": "On Time",
+  "delay": "5 minutes",
+  "gateChange": {
+    "originalGate": "G3",
+    "newGate": "G3"
+  },
+  "isCancelled": false
+},
+{
+  "_id": "1",
+  "flightNumber": "AA123",
+  "airline": "American Airlines",
+  "origin": "JFK",
+  "destination": "LAX",
+  "scheduledDeparture": "2024-07-27T08:30:00Z",
+  "actualDeparture": "2024-07-27T08:50:00Z",
+  "scheduledArrival": "2024-07-27T11:30:00Z",
+  "actualArrival": "2024-07-27T11:50:00Z",
+  "status": "Cancelled",
+  "delay": "20 minutes",
+  "gateChange": {
+    "originalGate": "B12",
+    "newGate": "B13"
+  },
+  "isCancelled": true,
+  "_class": "com.indigo.flightstatus.flightstatus.model.Flight"
+}]

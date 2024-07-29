@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-image: url("./Utilities/Images/output-onlinepngtools\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1077de; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round the corners of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a7ed1; /* Color of the scrollbar thumb on hover */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
